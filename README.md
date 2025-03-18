@@ -1,33 +1,75 @@
 # 🌦 Weather App
+
 ## 📌 Overview
-The Weather App is a real-time weather application that allows users to check the weather conditions of any city they search for. The app provides accurate weather details, including temperature, humidity, and overall weather conditions, along with relevant icons. It fetches data dynamically using a weather API and presents it in a visually appealing and easy-to-understand format.
+The **Weather App** is a real-time weather application that allows users to check the weather conditions of any city. It provides **temperature, humidity, and overall weather conditions** using a dynamic weather API. The app features a modern **Jetpack Compose UI**
+
+---
 
 ## ✨ Features
-🔍 Search Functionality
-Users can enter a city name in the search bar to retrieve current weather details for that location. The app sends a request to a weather API and displays the fetched data instantly.
+### 🔍 Search Functionality
+- Users can enter a city name in the search bar to fetch **current weather details**.
+- Real-time weather data is retrieved from an external **Weather API**.
 
 ### ⏳ Real-time Weather Data
-Displays the current temperature in Celsius.
-Shows weather conditions (e.g., Clear, Rainy, Cloudy).
-Provides humidity levels to give users a complete weather overview.
-### 🌤 Weather Icons
-The app fetches and displays dynamic weather icons that represent the current condition (e.g., sun for clear skies, clouds for cloudy weather, rain for precipitation). These icons are updated based on API data.
+- Displays the **current temperature** (in Celsius).
+- Shows **weather conditions** (e.g., Clear, Rainy, Cloudy).
+- Provides **humidity levels** for a complete weather overview.
 
-### 🎨 Modern UI 
-The UI is designed using Jetpack Compose, ensuring a smooth and responsive experience.
+### 🌤 Weather Icons
+- The app **fetches and displays dynamic weather icons** representing the weather conditions.
+- **Icons automatically update** based on the API data.
+
+### 🎨 Modern UI
+- Built using **Jetpack Compose** for a smooth and responsive experience.
+- UI adapts to **light and dark modes** dynamically.
+
 ### 📱 User-friendly Interface
-A clean and minimalistic design ensures a seamless user experience.
-Weather data is presented in an organized and structured layout, making it easy to read.
-The app features well-aligned cards with rounded corners to enhance the overall aesthetics.
+- **Minimalistic design** for a clean look.
+- **Well-structured layout** with rounded cards and organized weather details.
+
+---
+
 ## 🛠 Technologies Used
-Jetpack Compose - Modern UI toolkit for building native Android interfaces.
-Kotlin - Primary programming language for Android development.
-LiveData & ViewModel - For efficient state management and data handling.
-Weather API - Used to fetch real-time weather data.
-Coil/Glide - For loading weather icons dynamically.
-### 🚀 How It Works
-User enters a city name in the search field.
-The app fetches weather data using a weather API.
-Displays real-time weather details, including temperature, humidity, and condition.
-Shows relevant weather icons based on the retrieved data.
-The UI adjusts according to light and dark mode settings for better usability.
+- **Jetpack Compose** - Modern UI toolkit for Android.
+- **Kotlin** - Primary language for Android development.
+- **LiveData & ViewModel** - Ensures efficient state management.
+- **Weather API** - Fetches real-time weather data.
+- **Coil/Glide** - Loads weather icons dynamically.
+
+---
+
+## 🚀 How It Works
+1. **User enters a city name** in the search field.
+2. **Weather data is fetched** via the API.
+3. **Temperature, humidity, and conditions** are displayed in real-time.
+4. **Icons update dynamically** based on the API response.
+5. **Light & dark mode adjustments** enhance usability.
+
+---
+
+## 📷 Screenshots
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/84b3a700-8c2f-4233-86b5-fab65dd0c879" width="250px" height="500px" style="border: 3px solid black; border-radius: 10px; margin: 10px;">
+  
+  <img src="https://github.com/user-attachments/assets/a17aac5c-b50f-4ac3-8c9d-6be0789c839a" width="250px" height="500px" style="border: 3px solid black; border-radius: 10px; margin: 10px;">
+
+  <img src="https://github.com/user-attachments/assets/c4f4be09-da8b-48ae-9deb-0242b9d042d1" width="250px" height="500px" style="border: 3px solid black; border-radius: 10px; margin: 10px;">
+
+  <img src="https://github.com/user-attachments/assets/c20fdbbf-6ba0-4f84-843f-cdd19bd7d6ba" width="250px" height="500px" style="border: 3px solid black; border-radius: 10px; margin: 10px;">
+</div>
+
+---
+
+## 🎥 Demo Video
+
+[![Watch the video](https://github.com/user-attachments/assets/7fa8ab68-52cd-49bf-b4ce-e99aa375f69f)]
+
+> 📌 Click the image above to **watch the demo video**.
+
+---
+
+## 🛠 Installation Guide
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-repo/weather-app.git
